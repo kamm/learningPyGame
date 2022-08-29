@@ -1,6 +1,6 @@
-level_map=[
+level_map = [
     '                            ',
-    '                            ',
+    '        XXXXXXXXXXXXXXXXXXX ',
     '                            ',
     ' XX    XXX             XX   ',
     ' XX P                       ',
@@ -8,9 +8,9 @@ level_map=[
     ' XXXX       XX              ',
     ' XX    X  XXXX    XX  XX    ',
     '       X  XXXX    XX  XXX   ',
-    '    XXXX  XXXXXX  XX  XXXX  ',
+    '     XXXX XXXXXX  XX  XXXX  ',
     'XXXXXXXXXXXXXXXX  XX  XXXX  '
 ]
-tile_size=64
-screen_width=1200
-screen_height=len(level_map)*tile_size
+tile_size = 64
+screen_width = 1200
+screen_height = len(level_map) * tile_size
